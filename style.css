@@ -1,0 +1,98 @@
+/* meng import font dri google font */
+@import url('https://fonts.googleapis.com/css2? family= Pixelify+Sans & display=swap');
+
+body {
+    font-family: 'Pixelify Sans', kursif;
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+
+    /* scrolling */
+    overflow-x: hidden;
+    
+
+    /* menentukan background linktree */
+    background-color: #737373;
+    
+    background-image: url(aset/duit.png);
+    background-size: auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    /* layout dengan teksbox */
+    /* menengahkan konten */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* set the container */
+.container{
+    width: 91%;
+    max-width: 680%;
+    margin: 10%;
+    padding: 50px 0px 100px 0px;
+
+    /* mengatur tata letak element dengan flexbox */
+    /* posisi element: tengah */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* set the profil image */
+.img-container img{
+    width: 160px;
+    border-radius: 50%;
+}
+
+/* set the title and description */
+.title-container{
+    /* tata letak */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+
+    /* warna texs heading dan deskripsi */
+    color: #000;
+}
+
+
+/* set the link item element */
+.link-item{
+    width: 100%;
+    height: 56px;
+    margin: 16px;
+    border-radius: 20px;
+
+    /* texs color and background color */
+    color: aliceblue;
+    text-decoration:none;
+    background-color: #000;
+
+    /* tata letak */
+    display: flex;
+    justify-content: space-between;
+}
+
+/* set the item */
+.icon{
+    margin: 3px 8px;
+    width: 44px;
+    height: 44px;
+}
+
+/* coba ke tengahin dikit hehe */
+.link-item p {
+    margin-right: 60px;
+}
+
+/* apa yg akan terjadi kl mouse berada di atas element */
+/* itulah yg di sebut dgn sifat hover */
+.link-item:hover{
+    transition: cubic-bezier(.07,1.41,.82,.1.41)0.2s;
+    transform: scale(1.02);
+    background-color: #000 (72,66,66);
+}
